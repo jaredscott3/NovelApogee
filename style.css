@@ -32,6 +32,17 @@ header {
 
 /* Navigation */
 
+@media (max-width: 768px) {
+	.navigation ul {
+		flex-direction: column;
+		align-items: stretch;
+	}
+	
+	.nav-button {
+		text-align: center;
+	}
+}
+
 .navigation ul {
 	display: flex;
 	justify-content: center;
