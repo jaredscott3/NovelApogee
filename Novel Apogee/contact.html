@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Apogee | Proprietary Aerospace, Space &amp; Rocketry Applications</title>
+    <meta name="description" content="Novel Apogee offers proprietary aerospace, rocketry, and space applications engineered for next-generation hardware.">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        console.log("Thank you for taking the time to view this website.");
+        console.log("May your dreams develop into reality.");
+        console.log("Check out Hostinger for domain accsss.")
+        console.log("Creator: Jared Scott");</script>
+</head>
+
+<body class="home-body">
+    <header class="header">
+        <div class="header-brand">
+            <img class="logo" src="pic/novel_apogee_logo1.jpg" alt="Novel Apogee Logo" height="500" width="500">
+        </div>
+        <div class="header-h1">
+            <p>
+                High feasiblity through cost reduction
+            </p>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li class="nav-button"><a class="nav-link" href="novelapogee.html">Home</a></li>
+                <li class="nav-button"><a class="nav-link" href="launch_recovery.html">Launch &amp; Re-entry</a></li>
+                <li class="nav-button"><a class="nav-link" href="deepspace.html">Deep Space</a></li>
+                <li class="nav-button" id="current-button"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-button"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="home-main">
+        <section>
+            <h2>Contact</h2>
+            <form action="send_message.php" method="POST">
+                <p>
+                    <label for="firstname" id="contactlabel1">First Name:</label><br>
+                    <input type="text" id="firstname" name="firstname">
+                </p>
+                <p>
+                    <label for="lastname" id="contactlabel2">Last Name:</label><br>
+                    <input type="text" id="lastname" name="lastname">
+                </p>
+                <p>
+                    <label for="phone" id="contactlabel3">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone">
+                </p>
+                <p>
+                    <label for="email" id="contactlabel4">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                </p>
+                <br>
+                <p>
+                    <label for="message" id="contactlabel5">What are you interested in:</label><br>
+                    <textarea id="message" name="message" placeholder="Input message here..." rows="10" cols="50">
+                    </textarea>
+                </p>
+                <p>Best Time To Contact:</p>
+                <p>
+                    <label for="timezone" class="formlabel" id="contactlabel6">Time zone:</label>
+                    <select id="timezone" name="timezone">
+                        <option value="GMT-4">Eastern Daylight Time</option>
+                        <option value="GMT-5">Central Daylight Time</option>
+                        <option value="GMT-6">Mountain Daylight Time</option>
+                        <option value="GMT-6">Mountain Standard Time</option>
+                        <option value="GMT-7">Pacific Daylight Time</option>
+                        <option value="GMT-7">Alaska Daylight Time</option>
+                        <option value="GMT-8">Hawaii-Aleutian Standard Time</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="radio" id="am" name="bestcontacttime" value="am">
+                    <label for="am">AM</label>
+                    <input type="radio" id="pm" name="bestcontacttime" value="pm">
+                    <label for="pm">PM</label>
+                    <input type="radio" id="anytime" name="bestcontacttime" value="anytime">
+                    <label for="anytime">Anytime</label>
+                </p>
+                <label for="contactmethod" class="formlabel" id="contactlabel7">Preferred contact method:</label>
+                <select id="contactmethod" name="contactmethod">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                </select>
+                <p>
+                    <label for="org-name" id="contactlabel8">Organization affiliated with:</label><br>
+                    <input type="text" id="org-name" name="org-name">
+                </p>
+                <input class="message-submit" type="submit" value="Submit">
+                <br>
+                <br>
+                <br>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jared Scott - All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

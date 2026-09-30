@@ -1,0 +1,196 @@
+/* Global */
+body {
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	color: #111;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center headings */
+h1, h2, h3 {
+	text-align: center;
+}
+
+/* Header */
+header {
+	text-align: center;
+	padding: 2rem 1rem;
+}
+
+.logo {
+	max-width: 300px;
+	height: auto;
+	border-radius: 1rem;
+}
+
+.header-h1 p {
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 0.5rem 0 1rem 0;
+}
+
+/* Navigation */
+
+.navigation ul {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-button {
+	padding: 0.5rem 1rem;
+	border-radius: 1rem;
+	border: 1px solid #ccc;
+	background: #fff;
+	transition: 0.2s ease;
+}
+
+	.nav-button:hover {
+		background: #000;
+		color: #fff;
+		transform: translateY(-2px);
+	}
+
+/* Main */
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+}
+
+/* Section spacing */
+
+
+section {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 1rem;
+	padding: 2rem;
+	max-width: 900px;
+	margin: 2rem auto;
+}
+
+.regimes-section h2 {
+	margin-bottom: 1.5rem;
+}
+
+/* Preview Cards */
+.preview-card {
+	display: flex;
+	gap: 1.5rem;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 1rem;
+	padding: 1.5rem;
+	align-items: center;
+	max-width: 900px;
+	margin: 1.5rem auto;
+}
+
+	.preview-card img {
+		width: 180px;
+		height: 180px;
+		object-fit: cover;
+		border-radius: 1rem;
+		box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+	}
+
+.preview-content {
+	text-align: left;
+	flex: 1;
+}
+
+	.preview-content h3 {
+		margin: 0 0 0.5rem 0;
+	}
+
+	.preview-content p {
+		margin: 0 0 1rem 0;
+		color: #333;
+	}
+
+.preview-link {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+
+	.preview-link:hover {
+		color: #fff;
+		background: #000;
+	}
+
+/* Contact Button */
+.contact-button {
+	display: inline-block;
+	padding: 0.75rem 1.5rem;
+	background: #000;
+	color: #fff;
+	border-radius: 1rem;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.2s ease;
+	margin-top: 2rem;
+}
+
+	.contact-button:hover {
+		background: #333;
+		transform: translateY(-2px);
+	}
+
+/* Consistent list styling */
+ol, ul {
+	margin: 1rem 0 1rem 2rem;
+	padding-left: 1rem;
+	line-height: 1.6;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ul {
+	list-style-type: disc;
+	margin: 1rem 0 1rem 2rem;
+	padding-left: 1rem;
+	line-height: 1.6;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+/* Nested list styles */
+ul ul {
+	list-style-type: circle;
+	margin-left: 1.5rem;
+}
+
+	ul ul ul {
+		list-style-type: square;
+	}
+
+/* Section spacing */
+.mission-section,
+.requirements-section,
+.protocol-section {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 1rem;
+	padding: 2rem;
+	max-width: 900px;
+	margin: 2rem auto;
+}
+
+/* Footer */
+footer p {
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+}
